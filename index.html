@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Base de conhecimento</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico.png" type="image/png">
+  </head>
+  <body>
+    <header>
+      <h1>Guia de Metodologias</h1>
+      <form onsubmit="iniciarBusca(event)">
+        <input 
+          type="text" 
+          placeholder="Digite aqui.." 
+          id="campo-pesquisa"
+        />
+        <button type="submit">Buscar</button>
+      </form>
+    </header>
+
+    <main>
+      <section id="resultados-pesquisa" class="resultados-pesquisa">
+        <p>Carregando...</p>
+      </section>
+    </main>
+
+    <footer>
+      <ul>
+        <li>
+            <a href="https://github.com/DevValen" target="_blank">GitHub</a>
+        </li>
+        <li>
+            <a
+            href="https://www.linkedin.com/in/valentina-santangelo-profile"
+            target="_blank"
+          >
+            LinkedIn
+          </a>
+        </li>
+      </ul>
+    </footer>
+    
+    <script src="app.js"></script>
+  </body>
+</html>
